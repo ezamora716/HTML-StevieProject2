@@ -1,9 +1,22 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-	<style>
+
+<style>
+		h1{
+  font-family: "Playwrite IT Moderna", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
 		body{background-color:pink;}
-		h2{color:indigo;}
+		h2{color:indigo;
+  font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
 		
 		table{
 			font-family: courier;
@@ -28,10 +41,16 @@
   padding: 40px;
   text-align: center;
   font-size:70px;
-}
+		}
 	</style>
 <meta charset="utf-8">
 <title>HTML-Project2</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&family=Playwrite+IT+Moderna:wght@100..400&display=swap" rel="stylesheet">
+	
+	
 </head>
 
 <body>
@@ -86,8 +105,27 @@
  </dl>
 	
 	<img class="photos" src="images/taylorstevie.jpg" alt="Taylor Swift and Stevie Nicks." style="width:600px; height:400px;">
-
+	
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Dn8-4tjPxD8?si=DJJIdaeF5xHWXnEp&amp;start=5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	
 <h2> My Favorite Album is <a href="belladonna.html">Bella Donna!</a></h2>
+	
+<iframe src="https://player.vimeo.com/video/296474335?h=fc1d67fc2a" width="640" height="360" frameborder="1" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/296474335">Stevie Nicks - Edge of Seventeen (Remastered)</a> from <a href="https://vimeo.com/user90448263">Elias Neto</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+	<br>
+	
+	
+	<form>
+		<label for="first"> What is your favorite song? </label><br>
+		<input type="text" id="first"><br>
+	<p> Have you been to a concert?</p>
+	<input type="checkbox" id="yes" name="yes" value="YES">
+		<label for="yes"> Yes I have! </label><br>
+	<input type="checkbox" id="no" name="no" value="NO">
+		<label for="no"> No I haven't.</label><br>
+		<input type="submit" value="Submit">
+	</form>
+	
 	
 </body>
 </html>
